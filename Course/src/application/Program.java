@@ -21,6 +21,7 @@ public class Program {
 		System.out.println("Enter the measures of triangle Y: ");
 		yA = sc.nextDouble();
 		yB = sc.nextDouble();
+
 		yC = sc.nextDouble();
 
 		double p = (xA + xB + xC) / 2.0;
