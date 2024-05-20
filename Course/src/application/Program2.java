@@ -24,8 +24,9 @@ public class Program2 {
 
 		System.out.print("Quantity in stock: ");
 		product.quantity = sc.nextInt();
+		
 
-		System.out.println(product.toString());
+		System.out.println(product.toString()); 
 
 		sc.close();
 
