@@ -43,6 +43,8 @@ public class Program2 {
 
 		System.out.println();
 		System.out.println("Updated data : " + product);
+		
+		
 
 		sc.close();
 

@@ -23,6 +23,7 @@ public class Product {
 	}
 
 	public void addProducts(int quantity) {
+		
 		this.quantity += quantity;
 	}
 
