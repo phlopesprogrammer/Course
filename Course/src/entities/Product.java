@@ -2,11 +2,11 @@ package entities;
 
 public class Product {
 
-	public String name;
-	public double price;
-	public int quantity;
+	private String name;
+	private double price;
+	private int quantity;
 
-	public Product(String name, double price, int quantity) {
+	public Product(String name, double price, int quantity) { //Exemplo de criação de um Construtor
 		this.name = name;
 		this.price = price;
 		this.quantity = quantity;
@@ -16,6 +16,21 @@ public class Product {
 		this.name = name;
 		this.price = price;
 
+	}
+	public void setName (String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public double getPrice() { //Para acessar o preço
+		return price;
+	}
+	public void setPrice(double price) {//Para alterar preço
+		this.price = price; //O método vai atribuir ao atributo price o valor price que chegou como argumento.
+	}
+	public int getQuantity() {
+		return quantity;
 	}
 
 	public double totalValueInStock() {
