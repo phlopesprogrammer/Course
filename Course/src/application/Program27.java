@@ -35,6 +35,7 @@ public class Program27 {
 
 		System.out.println("Negative numbers: " + count);
 		sc.close();
+		
 	}
 
 }
