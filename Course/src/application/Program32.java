@@ -38,6 +38,7 @@ public class Program32 {
 
 		System.out.println("t1 dias = " + t1.toDays());
 		System.out.println("t2 dias = " + t2.toDays());
+		
 		System.out.println("t3 dias = " + t3.toDays());
 
 	}
