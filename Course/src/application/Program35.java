@@ -34,7 +34,7 @@ public class Program35 {
 				System.out.println("Valor de b: " + b);
 				*/
 		
-		//Pré - Incremento : Primeiro ele sofre a operação e depois atribui.
+		//Pré - Incremento : Primeiro ele sofre a operação e depois atribui .
 		/*
 		int a = 10;
 		int b = ++a;
